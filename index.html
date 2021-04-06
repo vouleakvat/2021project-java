@@ -9,28 +9,50 @@
     <title>contry visit</title>
 </head>
 <body>
-   
-    <div class ="container">
+    <!-- action="/action_page.php" -->
+    <div class="form">
+     <form >
+          <legend>Personalia                                                                                                                                                :</legend><br>
+          <label for="box">First name:</label><br>  
+          <input type="text" id="text" name="text" value=""><br><br>
+          <label for="name">Last name:</label><br> 
+          <input type="text" id="name" name="name" value=""><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" ><br><br>
+          <label for="date">Date:</label><br>
+          <input type="date" id="date" name="Date"><br><br>
+          <button id="submitdata">Submit</button>
+
+       </form>
+    </div>
+
+    <div class ="container"> 
         <div class="h1"> Country visited </div>
         <div class ="search">
             <labe>Name of Province</labe>
-            <input type="text" id="searchId" placeholder="search">
+            <input type="text" id="searchId" placeholder="search...">
+            <labe>Favourite place</labe>
+            <input type="text" id="searchId" placeholder="search...">
 
         </div>
         <div class="task">
             <label>Add Place</label><br>
-            <input type="text" id="add-task" placeholder="Add-place">
-            <button>Add +</button>
+            <input type="text" id="add-task" placeholder="Add place">
+            <button id="add">Add +</button>
         </div>
+        
         <div class="listItem">
             <ul>
                 <li><span class="task">Seam Reap</span><span class="delete">delete</span></li>
                 <li><span class="task">Preah Sihanu</span><span class="delete">delete</span></li>
-                <li><span class="task">Koh Kong</span><span class="delete">delete</span></li>
                 <li><span class="task">Kep</span><span class="delete">delete</span></li>
                 <li><span class="task">Preah Vihear</span><span class="delete">delete</span></li>
             </ul>
         </div>
     </div>
+    <div class="Contact Us">
+        <button onclick="contectus()" id="contact"> Contact Us</button>
+    </div>
+    
 </body>
 </html>

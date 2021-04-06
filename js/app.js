@@ -20,8 +20,6 @@ function setItem(event) {
 
     // add li to ul
     ul.appendChild(li);
-
-
 }
 
 
@@ -30,7 +28,8 @@ function deleteItem(event) {
         event.target.parentElement.remove();
     }
 }
-const  btnAdd = document.querySelector('button');
+// const  btnAdd = document.querySelector('button');
+const  btnAdd = document.getElementById('add');
 const ul = document.querySelector('ul');
 const search = document.querySelector('#searchId');
 
@@ -49,3 +48,10 @@ search.addEventListener('keyup',function(e) {
         }
     }
 });
+// Hide and show btn before submit
+// function beforeSubmit() {
+//     let x = document.getElementById("connect");
+//     if (window.getComputedStyle(x).display==="none"){
+//         yield.style.display="block";
+//     }
+// }

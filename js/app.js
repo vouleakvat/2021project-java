@@ -49,9 +49,11 @@ search.addEventListener('keyup',function(e) {
     }
 });
 // Hide and show btn before submit
-// function beforeSubmit() {
-//     let x = document.getElementById("connect");
-//     if (window.getComputedStyle(x).display==="none"){
-//         yield.style.display="block";
-//     }
-// }
+function beforeSubmit() {
+    let x = document.querySelector(".mood");
+    if (window.getComputedStyle(x).display=="none"){
+        x.style.display="block";
+    }
+}
+let show=document.getElementById("contact");
+show.addEventListener('click',beforeSubmit);

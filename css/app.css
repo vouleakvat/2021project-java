@@ -1,5 +1,5 @@
 body {
-    background: rgb(185, 230, 185);
+    background: rgb(161, 222, 226);
 
 }
 .h1 {
@@ -9,10 +9,10 @@ body {
 }
 .container {
     width: 400px;
-    background: rgb(47, 217, 226);
+    background: rgb(185, 200, 201);
     margin:auto;
     border-radius: 10px;
-    margin-top: -369px;
+    margin-top: 70px;
 
 }
 .item {
@@ -65,35 +65,46 @@ button{
     font-family: cursive;
     color: blue;
 }
-.form{
-    background: lightblue;
+
+#date{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+   
+}
+#add{
+    background: red;
+}
+
+.mood{
+    background: rgb(114, 226, 179);
     width:400px;
     margin-top: 20px;
-    margin-left: 20px;
-
+    margin-left: 35%;
+    display: none;
 
 }
-#text,#name,#email      {
+#text,#name   {
     height: 5vh;
-    width: 80%;
+    width: 90%;
 }
 #submitdata{
     width: 25%;
     height: 6vh;
     background: rgb(230, 212, 54);
 }
-#date{
-    width: 80%;
-    height: 5vh;
-    
-}
+
 #contact{
     padding: 10px;
     border-radius: 70px;
     outline: none;
     width: 16%;
-    background: pink;
+    background: rgb(236, 134, 151);
     margin-left: 40%;
 
 }
-#
+#email{
+    height: 5vh;
+    width: 90%;
+}
